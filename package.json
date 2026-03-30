@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "start": "concurrently \"node api-gateway/server.js\" \"node user-service/server.js\" \"node recipe-service/server.js\" \"node order-service/server.js\" \"node notification-service/server.js\"",
     "dev": "concurrently \"node api-gateway/server.js\" \"node user-service/server.js\" \"node recipe-service/server.js\" \"node order-service/server.js\" \"node notification-service/server.js\"",
     "build": "cd frontend && npx vite build",
     "preview": "vite preview",
