@@ -1,0 +1,5 @@
+{
+  "name": "HEALTH_AI",
+  "description": "A microservices-based healthy recipe and meal planning application.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,18 @@
+version: '3.8'
+services:
+  api-gateway:
+    build: ./api-gateway
+    ports:
+      - "3000:3000"
+  user-service:
+    build: ./user-service
+  recipe-service:
+    build: ./recipe-service
+  order-service:
+    build: ./order-service
+  notification-service:
+    build: ./notification-service
+  frontend:
+    build: ./frontend
+    ports:
+      - "5173:5173"

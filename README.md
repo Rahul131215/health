@@ -1,11 +1,14 @@
-<div align="center">
+# HEALTH_AI
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A microservices-based application for healthy recipes and meal planning.
 
-  <h1>Built with AI Studio</h2>
+## Architecture
+- **frontend**: React + Vite SPA
+- **api-gateway**: API Gateway routing requests
+- **user-service**: User management
+- **recipe-service**: Recipe catalog
+- **order-service**: Meal ordering
+- **notification-service**: Email and alerts
 
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+## Running locally
+Run `docker-compose up` to start all services.
